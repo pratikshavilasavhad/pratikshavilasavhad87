@@ -1,4 +1,4 @@
-package AssignmentMethod;
+package AssignmentMethod_2;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package AssignmentMethod;
+package AssignmentMethod_2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
