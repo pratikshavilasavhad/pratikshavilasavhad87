@@ -1,4 +1,4 @@
-package Manage;
+package Manage_2;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;

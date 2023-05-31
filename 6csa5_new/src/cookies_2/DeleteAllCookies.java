@@ -1,21 +1,19 @@
-package cookies;
-
-
+package cookies_2;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class DeleteCookie {
+public class DeleteAllCookies {
+
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.meesho.com/");
-		Cookie cooky=new Cookie("selenium","4");
+		driver.get("https://www.fb.com/");
+		Cookie cooky=new Cookie("selenium","7");
 		 driver.manage().addCookie(cooky);
-		 driver.manage().deleteCookie(cooky);
-		
+		 driver.manage().deleteAllCookies();
 	
-		
+	
 		// TODO Auto-generated method stub
 
 	}

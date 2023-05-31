@@ -1,19 +1,19 @@
-package cookies;
+package cookies_2;
+
+
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class DeleteAllCookies {
+public class GetCookieNamed {
 
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.fb.com/");
-		Cookie cooky=new Cookie("selenium","7");
-		 driver.manage().addCookie(cooky);
-		 driver.manage().deleteAllCookies();
-	
-	
+		Cookie cooky= driver.manage().getCookieNamed("sb");
+		System.out.println(cooky);
+		
 		// TODO Auto-generated method stub
 
 	}
