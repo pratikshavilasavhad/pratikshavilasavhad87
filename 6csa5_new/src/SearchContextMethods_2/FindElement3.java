@@ -5,23 +5,19 @@ package SearchContextMethods_2;
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
 
-	public class FindElements {
-
+	public class FindElement3 {
 		public static void main(String[] args) {
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.get("https://www.instagram.com/");
-			driver.findElement(By.tagName("div"));
-			System.out.println("element size");
+			driver.get("https://www.meesho.com/");
+			driver.findElement(By.tagName("input"));
 			System.out.println("element identified");
-			
-			
-			
-			
 			
 		
 
 		}
 
 	}
+
+			
 
