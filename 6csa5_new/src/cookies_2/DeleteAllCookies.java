@@ -14,7 +14,7 @@ public class DeleteAllCookies {
 		 driver.manage().deleteAllCookies();
 	
 	
-		// TODO Auto-generated method stub
+	
 
 	}
 
