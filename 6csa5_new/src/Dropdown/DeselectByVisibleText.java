@@ -15,7 +15,7 @@ package Dropdown;
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-			driver.get("file:///C:/Users/Aarati/Desktop/dropdown.html");
+			driver.get("file:///C:/Users/omsai/Desktop/ABCD.html");
 			WebElement city = driver.findElement(By.id("city"));
 			Select select = new Select(city);
 			Thread.sleep(3000);
